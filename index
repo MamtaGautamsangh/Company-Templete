@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Pay-Rent</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <div class="bg-img">
+      <div class="nav">
+        <img src="https://gharbars.com/Content/images/logo.png" alt="image" width="22%" height="70px" class="logo">
+        <select name="services" id="slct">
+          <option value="allservice">All Services</option>
+          <option value="saab">Rent Agreement</option>
+          <option value="p&m">packers & movers</option>
+          <option value="HP">House Premium</option>
+          <option value="Pm">Property management</option>
+          <option value="audi">Legal service</option>
+          <option value="audi">Home Loan</option>
+          <option value="audi">Home Interiors</option>
+        </select>
+      </div>
+        <h3>Pay Rent With Credit Card</h3>
+        <h4>Use your Credit Card and earn rewards</h4>
+    </div>
+    
+        <div class="container-fluid">
+            <h4 id="h4">Security</h4>
+              <h3 id="h3">100% Security</h3>
+            <div class="col-12 fl">
+                <div class="main">
+                    <div class="main1 fl">
+                        <img src="data:image/png;base64,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" alt="image" width="40%" height="50px" style="border-radius: 50%; margin: 40px 50px;" >
+                    </div>
+                    <div class="main2 fr">
+                        <p style="font-size: 1.5em; text-align: justify; margin-top: 10%; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Instant sms to landload</p>
+                    </div>
+                </div>
+                <div class="main">
+                    <div class="main1 fl">
+                        <img src="data:image/png;base64,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" alt="image" width="40%" height="50px" style="border-radius: 50%; margin: 40px 50px;">
+                    </div>
+                    <div class="main2 fr">
+                        <p style="font-size: 1.5em; text-align: justify; margin-top: 10%; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Instant settlement</p>
+                    </div>
+                </div>
+                <div class="main">
+                    <div class="main1 fl">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJPBkno2_p7LEPyBMklXAS5v8rM0P42uStkw&usqp=CAU" alt="image" width="40%" height="50px" style="border-radius: 50%; margin: 40px 50px;">
+                    </div>
+                    <div class="main2 fr">
+                        <p style="font-size: 1.5em; text-align: justify; margin-top: 10%; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Select the desired charging slot</p>
+                    </div>
+                </div>
+                
+                <br>
+                <div class="clr"></div>
+                <br>
+                <br>
+                <br>
+                 
+                  
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <img src="https://gharbars.com/Content/images/logo.png" alt="Avatar" style="width:250px;height:100px;margin-top: 25%;">
+                         <h6>Reviews card</h6>
+                      </div>
+                      <div class="flip-card-back">
+                          <h6 style="margin-top: 20%;">Rating Star</h6>
+                        <img src="https://as1.ftcdn.net/v2/jpg/01/09/84/42/1000_F_109844239_A7MdQSDf4y1H80cfvHZuSa0zKBkZ68S7.jpg" alt="star" width="20px" height="20px" style="margin-top: 10%;">
+                        <img src="https://as1.ftcdn.net/v2/jpg/01/09/84/42/1000_F_109844239_A7MdQSDf4y1H80cfvHZuSa0zKBkZ68S7.jpg" alt="star" width="20px" height="20px" style="margin-top: 10%;">
+                        <img src="https://as1.ftcdn.net/v2/jpg/01/09/84/42/1000_F_109844239_A7MdQSDf4y1H80cfvHZuSa0zKBkZ68S7.jpg" alt="star" width="20px" height="20px" style="margin-top: 10%;">
+                        <img src="https://as1.ftcdn.net/v2/jpg/01/09/84/42/1000_F_109844239_A7MdQSDf4y1H80cfvHZuSa0zKBkZ68S7.jpg" alt="star" width="20px" height="20px" style="margin-top: 10%;">
+                        <img src="https://as1.ftcdn.net/v2/jpg/01/09/84/42/1000_F_109844239_A7MdQSDf4y1H80cfvHZuSa0zKBkZ68S7.jpg" alt="star" width="20px" height="20px" style="margin-top: 10%;">
+                        <p>Review and rating system for each business</p> 
+                        <p>Create a dedicated page for each local businesses</p>
+                      </div>
+                    </div>
+                  </div>
+                 
+                <br>
+                <h5 style="margin-left: 35%;">EXTRAS</h5> 
+                <h1 style="color: black; margin-left: 20%; font-size: 1.5rem;">Some Question Asked</h1>
+                
+                <br>
+                
+                <div class="txt">
+                <h1 style="text-align:justify; margin-left: 5%; font-size: 1.5rem;">How to pay rent online using a credit card?</h1>
+                <br>
+                <p style="text-align:justify; margin-left: 5%;">Tenants can easily transfer the monthly rent to their landlord's bank account using their credit card. To transfer the rent, you should have the landlord's account number and IFSC code. Once the bank details are verified, the user can make the transfer. Once the transaction is completed, the landlord will be notified via SMS to his mobile number. While the transfer can take up to 48 hours, the renter can track the payment status through the link provided once the amount has been deducted from their credit card limit..</p>
+            <br>
+            <br>
+            <br>
+            <h1 style="text-align:justify; margin-left: 5%; font-size: 1.5rem;">What are the benefits of paying rent using a credit card?</h1>
+            <br>
+            <p style="text-align:justify; margin-left: 5%;">First of all, paying rent with a credit card can be a significant relief for those who are struggling with a lack of money at the end or beginning of the month for various reasons. Using a credit card to pay rent allows renters to take advantage of unused credit limits and receive other benefits as well. Some of the other benefits of the credit card include:
+
+              Unlike cash transfers, credit card spending earns you reward points that can be redeemed for airline tickets, shopping deals, etc.
+              Using the credit card for large transactions can improve the user's credit score. However, payments must then be made on time.
+              Easy and timely payments are possible without having to worry about running out of money.
+              Credit card rental payments can be easily automated and remitted on a specific date each month.
+              Easy and timely payments can be made without you having to worry about lack of funds.
+              Rental payments by credit card can be easily automated and remitted on a specific date each month.
+              How do I get rent receipts for online rent payments?
+              Rental receipts are automatically generated once the transfer is complete. These rent receipts are sent to the email address provided by the user or can be downloaded from the transaction history. To apply for HRA through these rent receipts, you must provide the landlord's address PAN and the address of the rented property.</p>
+              <h1 style="text-align:justify; margin-left: 5%; font-size: 1.5rem;">Are there any charges for using Housing Pay Rent?</h1>
+                <br>
+                <p style="text-align:justify; margin-left: 5%;">We levy a small convenience charge when you pay through credit card. The amount is mentioned in the payment page and is included in the final payment.</p>
+                <h1 style="text-align:justify; margin-left: 5%; font-size: 1.5rem;">How do I win rewards or cashbacks when I use Housing Pay Rent?</h1>
+                <br>
+                <p style="text-align:justify; margin-left: 5%;">Offers, cashbacks, reward points, Airmiles and much more await you when you pay through Housing. We have partnered with the best brands to do just that. Credit card rewards vary from bank to bank. You can contact your bank to find out exactly how much you can expect when you spend your money online.</p>
+                <h1 style="text-align:justify; margin-left: 5%; font-size: 1.5rem;">Can I pay rent through Housing if my landlord is not registered on it?</h1>
+                <br>
+                <p style="text-align:justify; margin-left: 5%;">But of course. Your landlord will receive the rent even if he is not registered with Housing. If you have entered the correct bank details, the transaction will be completed and the landlord will be notified by SMS upon successful completion.</p>
+            <br>
+            </div>
+
+            
+                
+        </div>
+            <div class="clr"></div>
+        
+        </div>
+        
+
+        </div>
+       
+      
+            <div class="col-21 fr">
+                <div class="fixed">
+                    <form action="/action_page.php" class="input">
+        
+                        <h2>Choose Payment category</h2>
+                        <select name="value" id="opt" style="width: 100%; padding: 3%; border-radius: 10px;" >
+                            <option></option>
+                            <option>House Rent</option>
+                            <option>Office Rent</option>
+                            <option>Security Deposit</option>
+                            <option>Booking Token</option>
+                            <option>Maintenance</option>
+                            <option>Brokerage</option>
+                          </select>
+                          <br>
+                          <br>
+                          <h2>Fill Amount</h2>
+                          <br>
+                           <input type="text" name="amount">
+                             <div class="form-group fr">
+                                        <label for="birthday">
+                                          <br>
+                                          <b>Tentative date of Payment</b></label>
+                                        <input type="date" id="opt" name="movement" style="border-radius: 10px">
+                                    </div>
+                                    
+                        <button type="submit" class="btn">Submit</button>
+                      </form>
+        </div>
+            </div>
+            
+        </div>  
+        
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>   
+    </body>
+</ html> 
